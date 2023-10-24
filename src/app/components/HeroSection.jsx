@@ -28,19 +28,27 @@ const HeroSection = () => {
             />
           </h3>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptatum.
+            Software Engineer at{" "}
+            <a
+              href="https://www.sourcewiz.com"
+              target="_blank"
+              style={{ textDecoration: "underline", color: "blue" }}
+            >
+              Sourcewiz
+            </a>{" "}
+            (May 2022 - Present)
           </p>
           <div>
             <Link
-              href="/contact"
+              href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
             >
               Hire Me
             </Link>
             <Link
-              href="/"
+              href="https://drive.google.com/file/d/1boSJNPs-rKYsUSpq1iNc3wRJnwg7Abck/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+              target="_blank"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
@@ -56,11 +64,12 @@ const HeroSection = () => {
         >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative">
             <Image
-              src="/images/hero-image.png"
-              alt="hero image"
+              src="/images/my-pic.jpg"
+              alt="image"
               className="absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              width={300}
+              width={280}
               height={300}
+              style={{borderRadius: "60% 60%"}}
             />
           </div>
         </motion.div>

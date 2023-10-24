@@ -1,0 +1,2 @@
+export const ABOUT_ME_DESC =
+  "I'm a focused and quick-learning full-stack web developer with a passion for creating innovative applications. Proficient in reading and writing code to produce viable solutions, I have a keen eye for translating inputs into effective outputs. With strong communication skills and a knack for actively listening to user feedback, I excel at making necessary modifications. My amiable personality, remote collaboration proficiency, and unwavering commitment to achieving organizational goals make me a valuable asset to any team.";
